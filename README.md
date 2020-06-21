@@ -54,6 +54,7 @@ EX:
 ```bash
 export DEVICE="whyred"
 ```
+#
 ```bash
 git clone -b $DEVICE-$HALIUM https://github.com/Linux-On-Sdm6Series/android.git .repo/local_manifests
 ```
