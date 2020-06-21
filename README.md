@@ -55,7 +55,7 @@ EX:
 export DEVICE="whyred"
 ```
 ```bash
-git clone -b $DEVICE https://github.com/Linux-On-Sdm6Series/android.git .repo/local_manifests
+git clone -b $DEVICE-$HALIUM https://github.com/Linux-On-Sdm6Series/android.git .repo/local_manifests
 ```
 Then to sync up:
 ```bash
