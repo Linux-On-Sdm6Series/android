@@ -5,8 +5,8 @@
           fetch="https://github.com/Linux-On-Sdm6Series"
           revision="halium-9.0" />
 
-  <project name="vendor_xiaomi_violet" path="vendor/xiaomi/violet" revision="halium" depth="1" />
-  <project name="device_xiaomi_violet" path="device/xiaomi/violet" revision="halium" depth="1" />
-  <project name="kernel_xiaomi_violet" path="kernel/xiaomi/violet" revision="halium" depth="1" />
+  <project name="vendor_xiaomi_violet" path="vendor/xiaomi/violet" remote="halium" depth="1" />
+  <project name="device_xiaomi_violet" path="device/xiaomi/violet" remote="halium" depth="1" />
+  <project name="kernel_xiaomi_violet" path="kernel/xiaomi/violet" remote="halium" depth="1" />
 
 </manifest>
