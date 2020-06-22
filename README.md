@@ -43,7 +43,7 @@ mkdir -p ~/halium
 cd ~/halium
 ```
 ```bash
-repo init -u git://github.com/halium/android.git -b $HALIUM
+repo init --depth=1 -u git://github.com/halium/android.git -b $HALIUM
 ```
 Add manifest You Phone
 ```bash
