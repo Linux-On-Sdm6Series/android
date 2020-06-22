@@ -5,8 +5,8 @@
           fetch="https://github.com/Linux-On-Sdm6Series"
           revision="halium-9.0" />
 
-  <project name="vendor_halium_whyred" path="vendor/halium/whyred" revision="halium" depth="1" />
-  <project name="device_halium_whyred" path="device/halium/whyred" revision="halium" depth="1" />
-  <project name="kernel_halium_whyred" path="kernel/halium/whyred" revision="halium" depth="1" />
+  <project name="vendor_halium_whyred" path="vendor/halium/whyred" remote="halium" depth="1" />
+  <project name="device_halium_whyred" path="device/halium/whyred" remote="halium" depth="1" />
+  <project name="kernel_halium_whyred" path="kernel/halium/whyred" remote="halium" depth="1" />
 
 </manifest>
