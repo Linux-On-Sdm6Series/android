@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="halium"
+          fetch="https://github.com/Linux-On-Sdm6Series"
+          revision="halium-9.0" />
+
+  <project name="vendor/halium/whyred" path="vendor/halium/whyred" revision="halium" depth="1" />
+  <project name="device/halium/whyred" path="device/halium/whyred" revision="halium" depth="1" />
+  <project name="kernel/halium/whyred" path="kernel/halium/whyred" revision="halium" depth="1" />
+
+</manifest>
