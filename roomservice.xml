@@ -5,8 +5,8 @@
           fetch="https://github.com/Linux-On-Sdm6Series"
           revision="halium-9.0" />
 
-  <project name="vendor_xiaomi_daisy" path="vendor/xiaomi/daisy" revision="halium" depth="1" />
-  <project name="device_xiaomi_daisy" path="device/xiaomi/daisy" revision="halium" depth="1" />
-  <project name="kernel_xiaomi_daisy" path="kernel/xiaomi/daisy" revision="halium" depth="1" />
+  <project name="vendor_xiaomi_daisy" path="vendor/xiaomi/daisy" remote="halium" depth="1" />
+  <project name="device_xiaomi_daisy" path="device/xiaomi/daisy" remote="halium" depth="1" />
+  <project name="kernel_xiaomi_daisy" path="kernel/xiaomi/daisy" remote="halium" depth="1" />
 
 </manifest>
