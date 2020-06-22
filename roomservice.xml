@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="halium"
+          fetch="https://github.com/Linux-On-Sdm6Series"
+          revision="halium-9.0" />
+
+  <project name="vendor_asus_X01BD" path="vendor/asus/X01BD" revision="halium" depth="1" />
+  <project name="device_asus_X01BD" path="device/asus/X01BD" revision="halium" depth="1" />
+  <project name="kernel_asus_X01BD" path="kernel/asus/X01BD" revision="halium" depth="1" />
+
+</manifest>
