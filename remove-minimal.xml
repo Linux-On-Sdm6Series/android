@@ -368,7 +368,6 @@
     <remove-project name="platform/test/vts-testcase/vndk" />
 
     <remove-project name="platform/tools/adt/idea" />
-    <remove-project name="platform/tools/apksig" />
     <remove-project name="platform/tools/base" />
     <remove-project name="platform/tools/build" />
     <remove-project name="platform/tools/external/fat32lib" />
