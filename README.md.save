@@ -13,6 +13,7 @@ repo sync
 ## Multirom Repo
 ```
 
+git clone -b android-8.1.0_r51 https://android.googlesource.com/platform/tools/apksig ~/multirom/tools/apksig
 rm -rf ~/multirom/bootable/recovery
 git clone -b android-8.1-mrom https://github.com/vasishath/android_bootable_recovery ~/multirom/bootable/recovery
 git clone -b android-9.0 https://github.com/vasishath/multirom system/extras/multirom
@@ -28,3 +29,7 @@ git clone https://github.com/vasishath/libbootimg ~/multirom/system/extras/libbo
 ~/multirom/device/$VENDOR/$DEVICE
 
 ```
+
+## Start Build
+```
+
