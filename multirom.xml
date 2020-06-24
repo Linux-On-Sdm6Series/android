@@ -14,7 +14,7 @@
           revision="master" />
 
   <!-- Multirom additions -->
-  <remove-project name="bootable/recovery" />
+<!--  <remove-project name="bootable/recovery" /> -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="vasishath" />
   <project path="system/extras/multirom" name="multirom" remote="vasishath1" />
   <project path="system/extras/libbootimg" name="libbootimg" remote="vasishath2" />
