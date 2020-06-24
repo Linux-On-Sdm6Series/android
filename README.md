@@ -28,3 +28,12 @@ git clone https://github.com/vasishath/libbootimg ~/multirom/system/extras/libbo
 ~/multirom/device/$VENDOR/$DEVICE
 
 ```
+## Build 
+```
+
+export ALLOW_MISSING_DEPENDENCIES=true
+source build/envsetup.sh
+lunch omni_$DEVICE-eng
+make recoveryimage
+
+```
