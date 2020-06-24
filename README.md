@@ -5,7 +5,7 @@
 mkdir -p ~/multirom && cd ~/multirom
 ```
 ```
-repo init --depth=1 -u git://github.com/Linux-On-Sdm6Series.git -b mrom-8.1
+repo init --depth=1 -u git://github.com/Linux-On-Sdm6Series.git -b multirom
 ```
 ```
 repo sync --fetch-submodules
