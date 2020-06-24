@@ -4,10 +4,6 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
 
-<!-- TWRP lives in TeamWin repo, not AOSP -->
-    <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
-
 <!-- Use OmniROM busybox -->
     <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
 
