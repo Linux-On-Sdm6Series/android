@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="vasishath"
+          fetch="https://github.com/vasishath"
+          revision="android-8.1-mrom" />
+   
+  <remote name="vasishath1"
+          fetch="https://github.com/vasishath"
+          revision="android-10" />
+
+  <remote name="vasishath2"
+          fetch="https://github.com/vasishath"
+          revision="master" />
+
+  <!-- Multirom additions -->
+  <remove-project name="bootable/recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="vasishath" />
+  <project path="system/extras/multirom" name="multirom" remote="vasishath1" />
+  <project path="system/extras/libbootimg" name="libbootimg" remote="vasishath2" />
+
+</manifest>
