@@ -37,3 +37,11 @@ lunch omni_$DEVICE-eng
 make recoveryimage
 
 ```
+```
+export ALLOW_MISSING_DEPENDENCIES=true
+source build/envsetup.sh
+lunch omni_$DEVICE-eng
+make multirom_zip
+
+```
+
