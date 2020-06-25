@@ -126,9 +126,9 @@ source build/envsetup.sh && lunch lineage_$DEVICE-userdebug && mka vendorimage -
 ##
 
 clone halium Install :
-Create *.img only Legacy
+Create *.img only Legacy ( i like this for all )
 ```bash
-git clone -b halium-9.0 https://github.com/Linux-On-Sdm6Series/halium-install.git halium-install
+git clone -b halium-9.0 https://github.com/Linux-On-Sdm6Series/halium-install.git halium-install 
 ```
 Legacy + SAR
 ```bash
