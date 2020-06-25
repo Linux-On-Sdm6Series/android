@@ -5,9 +5,9 @@
           fetch="https://github.com/Linux-On-Sdm6Series"
           revision="halium-9.0-4.9" />
 
-  <project name="vendor_xiaomi-tissot" path="vendor/xiaomi" remote="halium" depth="1" />
-  <project name="device_xiaomi_tissot" path="device/xiaomi/tissot" remote="halium" depth="1" />
-  <project name="device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" remote="halium" depth="1" />
-  <project name="kernel_xiaomi_tissot" path="kernel/xiaomi/tissot" remote="halium" depth="1" />
+  <project name="vendor_xiaomi-tissot" path="vendor/xiaomi" remote="halium-9.0" depth="1" />
+  <project name="device_xiaomi_tissot" path="device/xiaomi/tissot" remote="halium-9.0" depth="1" />
+  <project name="device_xiaomi_msm8953-common" path="device/xiaomi/msm8953-common" remote="halium-9.0" depth="1" />
+  <project name="kernel_xiaomi_tissot" path="kernel/xiaomi/tissot" remote="halium-9.0" depth="1" />
 
 </manifest>
