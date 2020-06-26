@@ -126,21 +126,13 @@ source build/envsetup.sh && lunch lineage_$DEVICE-userdebug && mka vendorimage -
 ##
 
 clone halium Install :
-Create *.img only Legacy ( i like this for all )
+Create *.img ( i like this for all )
 ```bash
 git clone -b halium-9.0 https://github.com/Linux-On-Sdm6Series/halium-install.git halium-install 
 ```
-Legacy + SAR
+This For Device Works With Halium ( My Team Custom )
 ```bash
-git clone -b flashable-9.0 https://github.com/Linux-On-Sdm6Series/halium-install.git halium-install
-```
-Legacy Only
-```bash
-git clone -b flashable-9.0-legacy https://github.com/Linux-On-Sdm6Series/halium-install.git halium-install
-```
-SAR Only
-```bash
-git clone -b flashable-9.0-sar https://github.com/Linux-On-Sdm6Series/halium-install.git halium-install
+git clone -b $DEVICE-$HALIUM https://github.com/Linux-On-Sdm6Series/halium-install.git halium-install
 ```
 =>
 ```bash
